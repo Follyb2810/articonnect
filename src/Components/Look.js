@@ -1,23 +1,21 @@
 import Artisan from "./Articonnect"
+import Card from "./Card"
 
    const Look =()=>{
     return(
 
-        <div>
-            {
-                // SortArtisan =()=>{
-                //     return(Artisan.sort((a,b)=>{
-                //         a.prof - b.prof
-                //     }))
-                // }
-                Artisan.prof.filter((v,i)=>{
-                    return (Artisan[i].prof).includes(Artisan.prof)
-                })
-            }
-        </div>
+       <div>
+           {
+            Artisan.some((v,i)=>{
+               return <Card   name ={Artisan[i].name}/>
+            })
+           }
+           
+       </div>
        
     )
    }
 
 
    export default Look;
+   

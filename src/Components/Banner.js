@@ -14,7 +14,7 @@ function Banner() {
                     your Work according to your desire. <br/>
                 </p>
                 <h2>Let showcase your work to the world</h2>
-                <button class="LinkButton"><Link  to ="/SignIn">JOIN US</Link></button>
+                <button class="LinkButton"><Link style={{ textDecoration:"none"}} to ="/SignIn">JOIN US</Link></button>
             </div>
             <img src={banner1} width={"500px"} height={"300px"} className="Banner1" alt="banner1" />
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './Resources/logo.png';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
 
 function Header({from}) {
     return (
@@ -11,8 +12,8 @@ function Header({from}) {
                 <i class="fa fa-search"></i>
             </div>
             <div className='HeaderNav'>
-                <h2><Link to ="/categories">Categories</Link></h2>
-                <button class="LinkButton"><Link to ="/SignIn" >GET LISTED</Link></button>
+                <h2><Link style={{ textDecoration:"none"}} to ="/categories" >Categories</Link></h2>
+                <button class="LinkButton"><Link style={{ textDecoration:"none"}} to ="/SignIn" >GET LISTED</Link></button>
             </div>
         </div>
     );

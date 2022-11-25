@@ -7,6 +7,7 @@ import {HeaderWhite} from "../Components/HeaderWhite";
 import CardList from "../Components/CardList";
 
  class Categories extends Component{
+    
     constructor(){
         super()
           this.state ={
